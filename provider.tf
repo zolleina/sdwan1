@@ -9,9 +9,16 @@ terraform {
   }
 }
 
-
 provider "sdwan" {
   username = "admin"
-  password = "change_me____"
+  password = var.vmanage_key_1
   url      = "https://10.48.84.100"
 }
+
+variable "vmanage_key_1" {
+ type = string
+ default = "change_me"
+ description = "vmaange KEY"
+}
+
+
