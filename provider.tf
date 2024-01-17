@@ -18,7 +18,10 @@ provider "sdwan" {
 variable "vmanage_key_1" {
  type = string
  default = "change_me"
- description = "vmaange KEY"
+ description = "vManage password"
 }
 
 
+output "key" {
+  
+}
