@@ -21,7 +21,3 @@ variable "vmanage_key_1" {
  description = "vManage password"
 }
 
-
-output "key" {
-  
-}

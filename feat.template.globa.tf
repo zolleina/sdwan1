@@ -1,5 +1,5 @@
-resource "sdwan_cedge_global_feature_template" "example" {
-  name                 = "Terraform_feature_template_global"
+resource "sdwan_cedge_global_feature_template" "Terraform_global" {
+  name                 = "Terraform_global"
   description          = "Modified Global feature template from terraform"
   device_types         = ["vedge-C8000V"]
   nat64_udp_timeout    = 300
